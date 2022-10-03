@@ -1,0 +1,48 @@
+03-Oct-2022 20:29:38.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.64
+03-Oct-2022 20:29:38.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2022 19:08:46 UTC
+03-Oct-2022 20:29:38.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.64.0
+03-Oct-2022 20:29:38.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Oct-2022 20:29:38.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Oct-2022 20:29:38.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Oct-2022 20:29:38.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-15.0.1
+03-Oct-2022 20:29:38.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           15.0.1+9-18
+03-Oct-2022 20:29:38.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Oct-2022 20:29:38.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\JavaModule3\apache-tomcat-9.0.64
+03-Oct-2022 20:29:38.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\JavaModule3\apache-tomcat-9.0.64
+03-Oct-2022 20:29:38.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\LogiGear\TestArchitect\binclient\agents\java\lib\ext\TAJavaLoader.jar
+03-Oct-2022 20:29:38.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Oct-2022 20:29:38.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Oct-2022 20:29:38.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-Oct-2022 20:29:38.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Oct-2022 20:29:38.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Oct-2022 20:29:38.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\JavaModule3\apache-tomcat-9.0.64\conf\logging.properties
+03-Oct-2022 20:29:38.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Oct-2022 20:29:38.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Oct-2022 20:29:38.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Oct-2022 20:29:38.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Oct-2022 20:29:38.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\JavaModule3\apache-tomcat-9.0.64
+03-Oct-2022 20:29:38.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\JavaModule3\apache-tomcat-9.0.64
+03-Oct-2022 20:29:38.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\JavaModule3\apache-tomcat-9.0.64\temp
+03-Oct-2022 20:29:38.900 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+03-Oct-2022 20:29:38.900 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+03-Oct-2022 20:29:38.900 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+03-Oct-2022 20:29:38.903 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+03-Oct-2022 20:29:39.167 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Oct-2022 20:29:39.212 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [577] milliseconds
+03-Oct-2022 20:29:39.258 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Oct-2022 20:29:39.258 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.64]
+03-Oct-2022 20:29:39.282 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\JavaModule3\apache-tomcat-9.0.64\webapps\Bai02M3_Servlet.war]
+03-Oct-2022 20:29:39.691 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Oct-2022 20:29:39.759 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\JavaModule3\apache-tomcat-9.0.64\webapps\Bai02M3_Servlet.war] has finished in [476] ms
+03-Oct-2022 20:29:39.759 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaModule3\apache-tomcat-9.0.64\webapps\docs]
+03-Oct-2022 20:29:39.779 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaModule3\apache-tomcat-9.0.64\webapps\docs] has finished in [20] ms
+03-Oct-2022 20:29:39.779 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaModule3\apache-tomcat-9.0.64\webapps\examples]
+03-Oct-2022 20:29:40.046 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaModule3\apache-tomcat-9.0.64\webapps\examples] has finished in [266] ms
+03-Oct-2022 20:29:40.046 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaModule3\apache-tomcat-9.0.64\webapps\host-manager]
+03-Oct-2022 20:29:40.092 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaModule3\apache-tomcat-9.0.64\webapps\host-manager] has finished in [46] ms
+03-Oct-2022 20:29:40.093 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaModule3\apache-tomcat-9.0.64\webapps\manager]
+03-Oct-2022 20:29:40.121 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaModule3\apache-tomcat-9.0.64\webapps\manager] has finished in [29] ms
+03-Oct-2022 20:29:40.121 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaModule3\apache-tomcat-9.0.64\webapps\ROOT]
+03-Oct-2022 20:29:40.140 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaModule3\apache-tomcat-9.0.64\webapps\ROOT] has finished in [18] ms
+03-Oct-2022 20:29:40.145 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Oct-2022 20:29:40.209 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [996] milliseconds
