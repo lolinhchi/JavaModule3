@@ -30,24 +30,25 @@ public class Servlet4_Post extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 //		response.getWriter().append("Served at: ").append(request.getContextPath());
-		 response.setContentType("text/html;charset=utf-8");
-		 PrintWriter out =response.getWriter(); 
-		 out.println("<!DOCTYPE html>");
-		 out.println("<html>");
-		 out.println("<head>"); 
-		 out.println("<title>Cộng 2 số </title>");
-		 out.println("</head>");
-		 out.println("<body>");
-		 //
-		 out.println("<form method='get' action='TongServlet4'>");
-		 out.println("<label>Số a: </label>");
-		 out.println("<input type='text' name='soA' />");
-		 out.println("<label>Số b: </label>");
-		 out.println("<input type='text' name='soB' />");
-		 out.println("<input type='submit' value='Cộng' />");
-		 out.println("</form>");
-		 out.println("</body>");
-		 out.println("</html>");
+//		 response.setContentType("text/html;charset=utf-8");
+//		 PrintWriter out =response.getWriter(); 
+//		 out.println("<!DOCTYPE html>");
+//		 out.println("<html>");
+//		 out.println("<head>"); 
+//		 out.println("<title>Cộng 2 số </title>");
+//		 out.println("</head>");
+//		 out.println("<body>");
+//		 //
+//		 out.println("<form method='get' action='TongServlet4'>");
+//		 out.println("<label>Số a: </label>");
+//		 out.println("<input type='text' name='soA' />");
+//		 out.println("<label>Số b: </label>");
+//		 out.println("<input type='text' name='soB' />");
+//		 out.println("<input type='submit' value='Cộng' />");
+//		 out.println("</form>");
+//		 out.println("</body>");
+//		 out.println("</html>");
+		response.sendRedirect("cong2so.html");
 	}
 
 	/**

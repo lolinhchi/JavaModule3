@@ -3,6 +3,7 @@ package servlets;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -30,9 +31,12 @@ public class Servlet2 extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 //		response.getWriter().append("Served at: ").append(request.getContextPath());
-		response.setContentType("text/html;charset=UTF-8");
-		PrintWriter pr = response.getWriter();
-		pr.println("Chào mừng bạn đến với Servlet");
+//		response.setContentType("text/html;charset=UTF-8");
+//		ServletContext sc = getServletContext();
+//
+//		PrintWriter pr = response.getWriter();
+//		pr.println("Chào mừng " +sc.getInitParameter("chill")+ " đến với Servlet");
+		request.getRequestDispatcher("chao.html").forward(request, response);
 	}
 
 	/**

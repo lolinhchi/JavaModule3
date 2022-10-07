@@ -9,4 +9,22 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <context-param>
+  	<param-name>chill</param-name>
+  	<param-value>Lo Linh Chi</param-value>
+  </context-param>
+  <servlet>
+  	<servlet-name>ServletConfig</servlet-name>
+  	<servlet-class>servlets.VdServerConfig</servlet-class>
+ 	<init-param>
+  		<param-name>tenND</param-name>
+  		<param-value>Lo Linh Chi</param-value>
+  	</init-param>
+  	
+  	
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ServletConfig</servlet-name>
+  	<url-pattern>/VdServerConfig</url-pattern>
+  </servlet-mapping>
 </web-app>
