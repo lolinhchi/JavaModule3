@@ -18,3 +18,14 @@
 2. thành phần dữ liệu private
 3. có các hàm getter và setter
 4. có phương thức khởi tạo không tham số
+
+# Phân trang
+1. Xác định số dòng mỗi trang
+2. Xác định tổng số trang = tổng số dòng / số dòng mỗi trang + (tổng số dòng % số dòng mỗi trang != 0 ?1 :0)
+3. Lấy số trang chọn xem
+	-> lấy ra số dòng của trang đó
+	sql: select * from sua limit vitri,sdmt
+	trang 1: vitri = 0 -> 4
+	trang 2: vitri = 5 -> 9
+	...
+	=> select * from sua limit (trang-1)*sdmt, sdmt
