@@ -57,5 +57,14 @@
 	</tr>
 	<%} %>
 </table>
+<p>
+	<a href="bai-tap-5.jsp?trang=1">&lt;&lt;</a>
+	<a href="bai-tap-5.jsp?trang=<%=trang-1<1?1:trang-1 %>">&lt;</a>
+	<%for (int i =1; i<tongSoTrang; i++){ %>
+		<a href="bai-tap-5.jsp?trang=<%=i %>"> <%=i %></a>
+	<%} %>
+	<a href="bai-tap-5.jsp?trang=<%=trang+1>tongSoTrang?tongSoTrang:trang+1%>">&gt;</a>
+	<a href="bai-tap-5.jsp?trang=<%=tongSoTrang%>">&gt;&gt;</a>
+</p>
 </body>
 </html>
