@@ -33,7 +33,9 @@
 
 
 - Lớp Category định nghĩa (mapping với) bảng category
----hình 5---
+
+![h5](https://user-images.githubusercontent.com/49097311/199011873-8953a0fe-777f-4c19-a712-f4b758b13ba9.PNG)
+
 *Đối với các trường có tên được tạo hoàn toàn giống với tên cột tương ứng dưới csdl thì có thể không cần tạo @Column(...)
 -- hình 6---
 -----
