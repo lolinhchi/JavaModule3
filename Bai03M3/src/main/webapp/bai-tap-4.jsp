@@ -2,7 +2,7 @@
 <%@page import="java.util.Locale"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.Statement"%>
-<%@page import="bussinessLogic.CSDL"%>
+<%@page import="businessLogic.CSDL"%>
 <%@page import="java.sql.Connection"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>

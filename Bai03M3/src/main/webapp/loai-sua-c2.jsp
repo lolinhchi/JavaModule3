@@ -1,4 +1,4 @@
-<%@page import="bussinessLogic.*"%>
+<%@page import="businessLogic.*"%>
 <%@page import="javaBeans.LoaiSua"%>
 <%@page import="java.util.List"%>
 <%@page import="java.sql.ResultSet"%>

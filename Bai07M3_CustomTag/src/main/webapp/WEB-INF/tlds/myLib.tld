@@ -24,4 +24,16 @@
   	<body-content>scriptless</body-content>
   	<description>In cau chao</description>
   </tag>
+  <tag>
+  	<name>cboLoaiSua</name>
+  	<tag-class>myTags.CboLoaiSua</tag-class>
+  	<body-content>scriptless</body-content>
+  	<description>hien combobox Loai sua</description>
+  </tag>
+    <tag>
+  	<name>cboHangSua</name>
+  	<tag-class>myTags.CboHangSua</tag-class>
+  	<body-content>scriptless</body-content>
+  	<description>hien combobox Hang sua</description>
+  </tag>
 </taglib>
