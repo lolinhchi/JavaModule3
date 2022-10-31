@@ -28,7 +28,10 @@
 -------------------------
 ### Sử dụng Annotation
 - Giả sử có lược đồ quan hệ như sau
----hình 4----
+
+![h4](https://user-images.githubusercontent.com/49097311/199011580-47ed2c97-e0b4-436e-8958-c38475a0f7a1.PNG)
+
+
 - Lớp Category định nghĩa (mapping với) bảng category
 ---hình 5---
 *Đối với các trường có tên được tạo hoàn toàn giống với tên cột tương ứng dưới csdl thì có thể không cần tạo @Column(...)
