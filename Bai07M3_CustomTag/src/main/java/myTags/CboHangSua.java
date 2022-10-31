@@ -12,6 +12,15 @@ import businessLogic.HangSuaBL;
 import javaBeans.HangSua;
 
 public class CboHangSua extends SimpleTagSupport {
+	private String maHang;
+	
+	public String getMaHang() {
+		return maHang;
+	}
+
+	public void setMaHang(String maHang) {
+		this.maHang = maHang;
+	}
 
 	public void doTag() throws JspException, IOException {
 		JspWriter out = getJspContext().getOut();
@@ -22,8 +31,13 @@ public class CboHangSua extends SimpleTagSupport {
 			f.invoke(out);
 		}
 		out.print("<select name='cboLoaiSua' >");
-		for(HangSua hs : dshs) { 
-			out.print("<option value='" + hs.getMaHang() + "'>" + hs.getTenHang() + "</option>" );
+		for(HangSua hs : dshs) {
+			if(hs.getMaHang().equals(maHang)) {
+				out.print("<option value='" + hs.getMaHang() + "' selected>" + hs.getTenHang() + "</option>" );
+			}else {
+				out.print("<option value='" + hs.getMaHang() + "'>" + hs.getTenHang() + "</option>" );
+			}
+			
 		}
 		out.print("</select>");
 	}

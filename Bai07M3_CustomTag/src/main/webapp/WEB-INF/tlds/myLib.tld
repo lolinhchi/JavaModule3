@@ -35,5 +35,9 @@
   	<tag-class>myTags.CboHangSua</tag-class>
   	<body-content>scriptless</body-content>
   	<description>hien combobox Hang sua</description>
+  	<attribute>
+  		<name>maHang</name>
+  		<type>String</type>
+  	</attribute>
   </tag>
 </taglib>

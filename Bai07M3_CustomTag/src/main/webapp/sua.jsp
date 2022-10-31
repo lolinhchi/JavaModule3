@@ -10,6 +10,6 @@
 </head>
 <body>
 <p><mt:cboLoaiSua> Loại sữa: </mt:cboLoaiSua></p>
-<p><mt:cboHangSua> Hãng sữa: </mt:cboHangSua></p>
+<p><mt:cboHangSua maHang="DL"> Hãng sữa: </mt:cboHangSua></p>
 </body>
 </html>
