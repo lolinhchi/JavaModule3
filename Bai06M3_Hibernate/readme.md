@@ -14,8 +14,11 @@
 ### Ví dụ thiết lập quan hệ many-to-one giữa book và category, quan hệ many-to-many giữa book và author:
 	- Một category có thể có nhiều book, 1 book thuộc 1 category
 	- Một book có thể có nhiều author, 1 author có thể có nhiều book
+	
 ==> Mapping file
----Hình 3---
+
+![h3](https://user-images.githubusercontent.com/49097311/199011103-fe0c8514-09d0-4ffb-abae-edd2ccb13929.PNG)
+
 ----
 ## Session Factory
 - Được tạo thông qua Configuration và tồn tạ xuyên suốt khi chương trình hoạt động
