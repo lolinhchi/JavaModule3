@@ -1,4 +1,12 @@
-## Lớp persistent phải:
+## Persisten class:
+- Là 1 class mà đại diện cho 1 table dưới csdl
+
+=> Persistent object: tương ứng với 1 dòng dữ liệu của table dưới csdl mà persistent class đại diện
+- Các trạng thái:
+	1. transient: persistent object vừa được tạo ra, chưa kết nối với Session nào, chưa đại diện cho record nào dưới csdl
+	2. persistent: persistent object kết hợp với 1 Session, đại diện cho 1 record trong csdl
+	3. detached: khi đóng Session 
+- Lớp persistent phải:
 	1. Có phương thức khởi tạo không tham số
 	2. Các thuộc tính thì private và có các phương thức getter setter
 	3. Các lớp không kế thừa tường minh lớp khác
