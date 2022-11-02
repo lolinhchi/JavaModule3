@@ -37,7 +37,9 @@
 ![h5](https://user-images.githubusercontent.com/49097311/199011873-8953a0fe-777f-4c19-a712-f4b758b13ba9.PNG)
 
 *Đối với các trường có tên được tạo hoàn toàn giống với tên cột tương ứng dưới csdl thì có thể không cần tạo @Column(...)
--- hình 6---
+
+![h6](https://user-images.githubusercontent.com/49097311/199408318-0e2374d1-c9ac-4693-a12f-2c1eb0afd430.PNG)
+
 -----
 - Quan hệ Many-to-one của product và category
 --hình 7---
