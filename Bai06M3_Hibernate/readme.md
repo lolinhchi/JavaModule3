@@ -46,8 +46,12 @@
 ![h7](https://user-images.githubusercontent.com/49097311/199408427-06c2d248-fd7f-44f6-a049-f7478ef92799.PNG)
 
 - Quan hệ Many-to-Many của product và manufacturer
---- hình 8 + hình 9---
+
+![h8](https://user-images.githubusercontent.com/49097311/199408621-204954ca-2b50-40ca-a323-2f8c0d255d69.PNG)
+![h9](https://user-images.githubusercontent.com/49097311/199408630-ec787843-6ad6-4738-b7e4-058889bf0f72.PNG)
+
 ### Minh họa thêm mới sản phẩm
----hinh 10-----
+
+![h10](https://user-images.githubusercontent.com/49097311/199408642-ec78ee02-12f4-4325-b369-0d48689eb87c.PNG)
  
 
