@@ -42,10 +42,12 @@
 
 -----
 - Quan hệ Many-to-one của product và category
---hình 7---
+
+![h7](https://user-images.githubusercontent.com/49097311/199408427-06c2d248-fd7f-44f6-a049-f7478ef92799.PNG)
+
 - Quan hệ Many-to-Many của product và manufacturer
 --- hình 8 + hình 9---
-### Minh họa thêm mối sản phẩm
+### Minh họa thêm mới sản phẩm
 ---hinh 10-----
  
 
