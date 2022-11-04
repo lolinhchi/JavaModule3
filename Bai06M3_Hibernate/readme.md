@@ -1,4 +1,12 @@
-## Lớp persistent phải:
+## Persisten class:
+- Là 1 class mà đại diện cho 1 table dưới csdl
+
+=> Persistent object: tương ứng với 1 dòng dữ liệu của table dưới csdl mà persistent class đại diện
+- Các trạng thái:
+	1. transient: persistent object vừa được tạo ra, chưa kết nối với Session nào, chưa đại diện cho record nào dưới csdl
+	2. persistent: persistent object kết hợp với 1 Session, đại diện cho 1 record trong csdl
+	3. detached: khi đóng Session 
+- Lớp persistent phải:
 	1. Có phương thức khởi tạo không tham số
 	2. Các thuộc tính thì private và có các phương thức getter setter
 	3. Các lớp không kế thừa tường minh lớp khác
@@ -37,13 +45,21 @@
 ![h5](https://user-images.githubusercontent.com/49097311/199011873-8953a0fe-777f-4c19-a712-f4b758b13ba9.PNG)
 
 *Đối với các trường có tên được tạo hoàn toàn giống với tên cột tương ứng dưới csdl thì có thể không cần tạo @Column(...)
--- hình 6---
+
+![h6](https://user-images.githubusercontent.com/49097311/199408318-0e2374d1-c9ac-4693-a12f-2c1eb0afd430.PNG)
+
 -----
 - Quan hệ Many-to-one của product và category
---hình 7---
+
+![h7](https://user-images.githubusercontent.com/49097311/199408427-06c2d248-fd7f-44f6-a049-f7478ef92799.PNG)
+
 - Quan hệ Many-to-Many của product và manufacturer
---- hình 8 + hình 9---
-### Minh họa thêm mối sản phẩm
----hinh 10-----
+
+![h8](https://user-images.githubusercontent.com/49097311/199408621-204954ca-2b50-40ca-a323-2f8c0d255d69.PNG)
+![h9](https://user-images.githubusercontent.com/49097311/199408630-ec787843-6ad6-4738-b7e4-058889bf0f72.PNG)
+
+### Minh họa thêm mới sản phẩm
+
+![h10](https://user-images.githubusercontent.com/49097311/199408642-ec78ee02-12f4-4325-b369-0d48689eb87c.PNG)
  
 
